@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InFR</title>
+  <!-- The Meta For Website -->
+  <meta name="author" content="Samaan Flobbos">
+  <meta name="description" content="موقع لتعليم اللغة الفرنسية">
+  <meta name="keywords" content="infr, InFR, learn, French,تعلم,اللغة,الفرنسية,مجانا,موقع">
+  <meta http-equiv="refresh" content="60">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The link files -->
+  <link rel="stylesheet" href="main.css" />
+  <link href="000https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"> 
+</head>
+<body>
+<!-- Start - Header -->
+<div class="header" >
+<div class="container" >
+	<div class="logo" >
+	<img src="image/logo.png" >
+	</div>
+</div>
+</div>
+<!-- End - Header -->
+
+<!-- Start - Content -->
+<div class="Content" dir="rtl" >
+<div class="container" >
+	<div class="hed-lsn" >
+		<hr class="h" >
+		<!--  Title Lesson  -->
+		<h2 class="title" >تعلم اللغة الفرنسية</h2>
+		<!--  Links Lesson -->
+		<div class="lnks" >
+		<a href="lessons/L1-alphabet.html" >الابجدية الفرنسية</a>
+	</div>
+	</div>
+<hr><!--##################################-->
+</body>
+</html>
