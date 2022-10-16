@@ -1,0 +1,209 @@
+*{
+  font-family:var(--main-font);
+  padding:0;
+  margin:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+html{scroll-behavior:smooth;}
+body{font-family:var(--main-font);}
+.container{
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/* Start - Style Elements */
+ul{
+  list-style:none;
+  margin:0;
+  padding:0
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+hr{
+  border:.7px solid #999;
+  background-color:#999;
+  border-radius:10px;
+  margin:20px 0
+}
+
+hr.h{
+  visibility:hidden;
+  border:.7px solid #999;
+  background-color:#999;
+  border-radius:10px;
+  margin:20px 0
+}
+
+.btn-r {
+  display:inline-block;
+  background-color:rgb(0,0,0,0.05);
+  height:47px;
+  width:47px;
+  border-radius:48px;
+  overflow:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.btn-r.in {
+background-color:rgb(255,0,0,0.05);
+color:red;
+border:1.5px solid red;
+}
+
+
+/* End - Style Elements */
+
+/* Start - The ROOT & Class */
+.ar{direction:rtl}
+.en{direction:ltr}
+.scroll{overflow:scroll;white-space:nowrap}
+.cen-mid{display:flex;justify-content:center;align-items:center}
+.b-icon {
+  background-color:#ddd;
+  height:48px;
+  width:48px;
+  border-radius:50%;
+}
+:root {
+--main-color:;
+--main-font:IBM Plex Sans Arabic;
+}
+/* End - The ROOT & Class */
+/* Small */
+@media (min-width: 768px) {.container {width:650px;}}
+/* Medium */
+@media (min-width: 992px) {.container {width: 750px;}}
+/* Large */
+@media (min-width: 1200px) {.container {width: 850px;}}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/* Start - Header */
+.header .icon , .main-sections .icon {font-size:27px;}
+.header {
+  background-color:white;
+  width:100%;
+  border-bottom:1px solid #ddd;
+  position:relative;
+  z-index:999;
+  box-shadow:0px 1.5px 8px rgb(0,0,0,0.15);
+}
+.header .container {
+  background-color:white;
+  height:60px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.header .logo {
+  background-color:transparent;
+  height:48px;
+  width:48px;
+  border-radius:50%;
+  overflow:hidden;
+}
+.header .logo img {width:100%;}
+.header .main-icons {/* Var = cen-mid */  height:60px;}
+.header .main-icons .btn-r {/* Var - btn-r */  margin-left:5px;}
+.header .main-icons .btn-r .icon {font-size:25px;}
+/* End - Header */
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/* Start - Content */
+.Content .hed-lsn {}
+		 /* Control Button  */
+		 .hed-lsn .ctrl-btn {
+		 margin-top:50px;
+		 height:5px;
+		 width:100%;
+		 display:flex;
+		 justify-content:space-between;
+		 align-items:center;
+		 }
+		 .hed-lsn .ctrl-btn .btn {
+		 padding:10px 25px;
+		 border-radius:5px;
+		 background-color:#222;
+		 color:white;
+		 font-size:17px;
+		 font-weight:500;
+		 }
+		 
+		 .hed-lsn .ctrl-btn .btn.previous:before {
+		 content:'❮';
+		 margin-left:10px;
+		 vertical-align:middle;
+		 }
+		 .hed-lsn .ctrl-btn .btn.next:after {
+		 content:'❯';
+		 margin-right:10px;
+		 vertical-align:middle;
+		 }
+		 .hed-lsn .lesson-links {
+		 background-color:#ddd;
+		 padding:8px 0px;
+		 border-radius:8px;
+		 }
+		 /* Title Lesson */
+		 .hed-lsn .title {
+		 text-align:center;
+		 margin-bottom:20px;
+		 font-size:28px;
+		 }
+		 /* Box-Links For Lesson */
+		 .hed-lsn .lnks {
+		 direction:rtl;
+		 background-color:#ddd;
+		 padding:8px 0px;
+		 border-radius:8px;
+		 }
+		 .hed-lsn .lnks a {
+		 display:block;
+		 padding:3px 15px;
+		 transition:.3s;
+		 }
+		 .hed-lsn .lnks a:hover {
+		 display:block;
+		 padding-right:25px;
+		 background-color:#ccc;
+		 }
+		 .hed-lsn .lnks a:before {
+		 content:'»';
+		 margin-left:5px;
+		 }
+		 /*━━━━━━━━━━━━━━━━*/
+.Content .con-lsn {}
+	/* Section V1 */
+	.con-lsn .seclsn.v1 {padding:25px 0px;}
+	.con-lsn .seclsn.v1 h2 {padding-bottom:3px;font-size:25px;}
+	.con-lsn .seclsn.v1 p {line-height:1.9;}
+	
+	.con-lsn .playAudio {
+	border:1px solid #ddd;
+	vertical-align:middle;
+	padding:4px;
+	border-radius:3px;
+	transition:0.3s;
+	font-size:16.7px;
+	}
+	/* Button Play Audio  */
+	.con-lsn .playAudio:hover {
+	border:1px solid #E5E5E5;
+	box-shadow:0px 0px 10px rgb(0,0,0,0.15);
+	}
+	
+.Content .fot-lsn {}
+	//###
+/* End - Content */
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━*/
